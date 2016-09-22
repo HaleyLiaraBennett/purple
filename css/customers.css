@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: hsl(270, 54%, 60%);
+  background-color: hsl(264, 100%, 97%);
+}
+hr {
+  width: 5%;
+  padding-top: 40px;
+  border: solid 2px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: inherit;
+}
+section {
+  width: 70%;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+section article h1 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+article p {
+  padding-bottom: 15px;
+}
+article address {
+font-style: normal;
+font-size: 12px
+}
+
+#circle img {
+  border: solid 5px;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+article hr {
+  width: 100%;
+}
+address{
+  font-size: 70%;
+}
+div.left {
+  position: absolute;
+  left: 80px;
+  bottom: 45%;
+  font-size: 50px;
+}
+div.right {
+  position: absolute;
+  right: 80px;
+  bottom: 45%;
+  font-size: 50px;
+}
+div.chick {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 20px 0;
+}
+div img {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 100px;
+  width: 25%;
+}
