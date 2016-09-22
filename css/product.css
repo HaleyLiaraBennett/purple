@@ -1,0 +1,21 @@
+.all{
+  display: flex;
+align-items: center;
+margin:10% 15%;
+color:hsl(269, 79%, 73%)
+}
+
+.watch{
+width:50%
+}
+
+.words{
+width:50%
+}
+
+button{
+  background-color:hsl(277, 30%, 47%);
+  font-size: 20px;
+  border-radius: 4px;
+  color:white;
+  padding:5px 10px
